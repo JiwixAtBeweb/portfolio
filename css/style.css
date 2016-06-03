@@ -1,0 +1,14 @@
+#fondtete{
+  background-color: grey;
+  height: 659px;
+  width: 100%;
+  padding-top: 10px;
+}
+h1{
+  text-align: center;
+  padding-top: -10px;
+  font-size: 60px;
+}
+p{
+  padding-top: -10px;
+}
