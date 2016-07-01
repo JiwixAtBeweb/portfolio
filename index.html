@@ -6,18 +6,18 @@
     <link rel="stylesheet" href="./css/boot/bootstrap.css"/>
     <link rel="stylesheet" href="./css/main.css"/>
     <script type="text/javascript" src="./jquery/jquery-2.0.2.js"/></script>
-    <script type="text/javascript" src="./jquery/jquery.stellar.js"></script>
     <script type="text/javascript" src="./javascript/monscript.js"></script>
     <title> Cv jimmy </title>
   </head>
   <body>
 
-    <nav class="containernav">
-      <ul class="groupelistenav">
-        <li class="listenav">Qui suis-je</li>
-        <li class="listenav">Formation</li>
-        <li class="listenav">Experience</li>
-      </ul>
+    <nav class=" col-xs-12 containernav">
+        <ul class="groupelistenav">
+          <li class="listenav listenav1"><a href="#quisuisje">Qui suis-je</a></li>
+          <li class="listenav listenav1"><a href="#formation">Formation</a></li>
+          <li class="listenav listenav2"><a href="#experience">Experience</a></li>
+          <li class="listenav listenav2"><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
     <div class="entete">
@@ -32,7 +32,7 @@
 
     <section class="toutesection">
       <header>
-        <h2>Qui suis-je</h2>
+        <h2 id="quisuisje">Qui suis-je</h2>
       </header>
       <article class="contenue">
         Texte provisoire Texte provisoire Texte provisoire Texte provisoire Texte provisoire Texte provisoire
@@ -60,35 +60,29 @@
       </article>
     </section>
 
-    <section class="toutesection">
+    <section class="col-xs-10 col-xs-offset-1 toutesection">
       <header>
-        <h2>Formation</h2>
+        <h2 id="formation">Formation </h2>
       </header>
       <article class="contenue">
         j'ai decouvert cette formation qui se nomme Beweb cree par simplon
       </article>
     </section>
 
-    <div data-stellar-background-ratio="2.2" class="sectionimage" id="image1">
+    <div class= "col-xs-12 sectionimage" id="image1">
     <section>
     </section>
     </div>
 
-    <section class="toutesection">
+    <section class="col-xs-10 col-xs-offset-1 toutesection">
       <header>
-        <h2>Experience et language</h2>
+        <h2 id="experience">Experience et language</h2>
       </header>
       <article class="contenue">
       les language que j'ai appris sont le HTML , CSS, JAVASCRIPT, ANGULARJS, RUBY
       </article>
     </section>
-
-    <div data-stellar-background-ratio="4" class="sectionimage" id="image2">
-    <section>
-    </section>
-  </div>
-
-    <footer>
+    <footer class="col-xs-12">
       <section>
         <article class="textecontact">
           <p>
@@ -98,14 +92,15 @@
             je suis disponible sur mon adresse mail.
           </p>
         </article>
+        <div id="contact">
+          <ul class="listelien">
+            <li class="liencontact"><a href="https://www.facebook.com/jimmyfriedblatt.dev.web"><img src="./css/img/facebook.png" alt="" /></a></li>
+            <li class="mailcontact"><p>Mail: Friedblattjimmybeweb@outlook.fr</p></li>
+            <li class="liencontact"><a href="https://twitter.com/Jimmy_Dev_Web"><img src="./css/img/twitter.png" alt="" /></a></li>
+          </ul>
+      </div>
       </section>
-      <div id="contact">
-      <ul>
-        <li id="lien1" class="liencontact"><a href="https://www.facebook.com/jimmyfriedblatt.dev.web"><img src="./css/img/facebook.png" alt="" /></a></li>
-        <li class="mailcontact"><p>Mail: Friedblattjimmybeweb@outlook.fr</p></li>
-        <li id="lien2" class="liencontact"><a href="https://twitter.com/Jimmy_Dev_Web"><img src="./css/img/twitter.png" alt="" /></a></li>
-      </ul>
-    </div>
+
     </footer>
 
   </body>

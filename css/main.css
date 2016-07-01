@@ -5,8 +5,9 @@ body {
   color: white;
   font-family: hacked, serif;
   text-align: center;
-  font-size: 70px;
-  padding-top: 40px;
+  font-size: 80px;
+  padding-top: 35px;
+  height: 50px;
   line-height: 50px; }
 
 .entete {
@@ -27,10 +28,12 @@ h2 {
 
 .containernav {
   background-color: black;
-  width: 100%;
   height: 60px;
   position: fixed;
-  z-index: 10; }
+  z-index: 10;
+  line-height: 60px;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%; }
 
 .groupelistenav {
   display: flex;
@@ -39,9 +42,35 @@ h2 {
 .listenav {
   color: white;
   list-style: none;
-  font-size: 17px;
+  font-size: 24px;
   font-family: hacked;
   margin-left: 20px; }
+
+.listenav a {
+  text-decoration: none;
+  color: white;
+  text-shadow: black 3px 3px 6px;
+  transition: 1s; }
+
+.listenav a:hover {
+  color: grey;
+  transition: 1s; }
+
+.listenav1 {
+  transform: skewY(170deg);
+  transition: 1s; }
+
+.listenav2 {
+  transform: skewY(10deg);
+  transition: 1s; }
+
+.listenav1:hover {
+  transform: skewY(200deg);
+  transition: 1s; }
+
+.listenav2:hover {
+  transform: skewY(-20deg);
+  transition: 1s; }
 
 .sectionimage {
   margin-top: 30px;
@@ -49,15 +78,15 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 600px;
-  text-align: center; }
+  height: 500px; }
 
 #image1 {
-  background-image: url("./img/newyork.jpg"); }
+  background-image: url("./img/newyork.jpg");
+  display: none; }
 
-#image2 {
-  background-image: url("./img/langue.png"); }
-
+@media (min-width: 768px) {
+  #image1 {
+    display: block; } }
 article {
   margin-left: 120px;
   margin-right: 120px;
@@ -69,14 +98,10 @@ article {
 footer {
   margin-top: -20px;
   background-color: black;
-  width: 100%;
-  height: 300px; }
+  width: 100%; }
 
 .textecontact {
-  color: white;
-  margin-left: 300px;
-  margin-right: 300px;
-  padding-top: 10px; }
+  color: white; }
 
 #contact {
   padding-top: 30px;
@@ -90,20 +115,14 @@ footer {
   transition: 1s;
   border-radius: 100%; }
 
-#lien1 {
-  margin-right: 50px; }
-
-#lien2 {
-  margin-left: 50px; }
+.liencontact:hover {
+  background-color: white;
+  transition: 1s;
+  border-radius: 0%; }
 
 .mailcontact {
   list-style: none;
   display: inline-block;
   color: white; }
-
-.liencontact:hover {
-  background-color: white;
-  transition: 1s;
-  border-radius: 0%; }
 
 /*# sourceMappingURL=main.css.map */
