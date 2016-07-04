@@ -12,6 +12,7 @@ background-color: white;
   line-height: 50px;
 }
 
+
 .entete{
   position: relative;
   z-index: 20;
@@ -63,15 +64,20 @@ h2{
   transition: 1s;
 
 }
+
+// deux premier lien qui sont tournee //
 .listenav1{
   transform: skewY(-10deg);
   transition: 1s;
 }
+// deux dernier lien qui sont tournee //
+
 .listenav2{
   transform: skewY(10deg);
   transition: 1s;
 }
 
+// au passage de la souri le menu se redresse //
 .listenav1:hover{
   transform: skewY(0deg);
   transition: 1s;
@@ -82,7 +88,7 @@ h2{
 
 }
 
-
+// la ou et placer mon image //
 .sectionimage{
   margin-top: 30px;
   background-attachment: fixed;
@@ -91,11 +97,13 @@ h2{
   width: 100%;
   height: 500px;
 }
-
+// mon image fixé sur la page //
 #image1{
   background-image: url("./img/newyork.jpg");
   display: none;
 }
+
+// en dessous la resolution l'image ne s'affiche pas //
 @media (min-width:768px) {
   #image1{
     display: block;
@@ -103,12 +111,16 @@ h2{
 
 }
 
+.toutesection{
+  margin-bottom: 30px;
+}
+
 article{
   margin-left: 120px;
   margin-right: 120px;
   color: black;
   font-family: DAYROM;
-  font-size:  17px;
+  font-size:  18px;
   text-align: center;
 
 }
@@ -134,6 +146,8 @@ text-align: center;
   color: white;
   transition: 1s;
   border-radius: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .liencontact:hover{
