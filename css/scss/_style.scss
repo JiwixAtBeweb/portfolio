@@ -64,7 +64,7 @@ h2{
 
 }
 .listenav1{
-  transform: skewY(170deg);
+  transform: skewY(-10deg);
   transition: 1s;
 }
 .listenav2{
@@ -73,11 +73,11 @@ h2{
 }
 
 .listenav1:hover{
-  transform: skewY(200deg);
+  transform: skewY(0deg);
   transition: 1s;
 }
 .listenav2:hover{
-  transform: skewY(-20deg);
+  transform: skewY(-0deg);
   transition: 1s;
 
 }
@@ -114,7 +114,6 @@ article{
 }
 
 footer{
-  margin-top: -20px;
   background-color: black;
   width: 100%;
 }
@@ -146,5 +145,4 @@ text-align: center;
 .mailcontact{
   list-style: none;
   display: inline-block;
-  color: white;
 }

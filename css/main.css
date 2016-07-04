@@ -57,7 +57,7 @@ h2 {
   transition: 1s; }
 
 .listenav1 {
-  transform: skewY(170deg);
+  transform: skewY(-10deg);
   transition: 1s; }
 
 .listenav2 {
@@ -65,11 +65,11 @@ h2 {
   transition: 1s; }
 
 .listenav1:hover {
-  transform: skewY(200deg);
+  transform: skewY(0deg);
   transition: 1s; }
 
 .listenav2:hover {
-  transform: skewY(-20deg);
+  transform: skewY(0deg);
   transition: 1s; }
 
 .sectionimage {
@@ -96,7 +96,6 @@ article {
   text-align: center; }
 
 footer {
-  margin-top: -20px;
   background-color: black;
   width: 100%; }
 
@@ -122,7 +121,6 @@ footer {
 
 .mailcontact {
   list-style: none;
-  display: inline-block;
-  color: white; }
+  display: inline-block; }
 
 /*# sourceMappingURL=main.css.map */
