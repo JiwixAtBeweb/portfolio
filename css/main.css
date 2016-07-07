@@ -34,7 +34,7 @@ h2 {
   text-decoration: underline;
   color: black; }
 
-@media (min-device-width: 768px) and (min-width: 768px) {
+@media (min-width: 768px) {
   .containernav {
     background-color: black;
     height: 60px;
@@ -114,7 +114,8 @@ footer {
   background-color: black; }
 
 .textecontact {
-  color: white; }
+  color: white;
+  padding-top: 5px; }
 
 #contact {
   padding-top: 30px;
@@ -123,20 +124,18 @@ footer {
 
 .liencontact {
   list-style: none;
-  display: inline-block;
+  display: inline-block; }
+
+.liencontactreseau {
   color: white;
   transition: 1s;
   border-radius: 100%;
   margin-left: 40px;
   margin-right: 40px; }
 
-.liencontact:hover {
+.liencontactreseau:hover {
   background-color: white;
   transition: 1s;
   border-radius: 0%; }
-
-.mailcontact {
-  list-style: none;
-  display: inline-block; }
 
 /*# sourceMappingURL=main.css.map */

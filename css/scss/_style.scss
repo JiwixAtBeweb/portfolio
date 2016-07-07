@@ -44,7 +44,7 @@ h2{
   text-decoration: underline;
   color: black;
 }
-@media (min-device-width:768px)and(min-width:768px) {
+@media (min-width:768px) {
 .containernav{
   background-color: black;
   height: 60px;
@@ -150,6 +150,7 @@ footer{
 
 .textecontact{
 color: white;
+padding-top: 5px;
 }
 
 #contact{
@@ -161,6 +162,9 @@ text-align: center;
 .liencontact{
   list-style: none;
   display: inline-block;
+
+}
+.liencontactreseau{
   color: white;
   transition: 1s;
   border-radius: 100%;
@@ -168,13 +172,8 @@ text-align: center;
   margin-right: 40px;
 }
 
-.liencontact:hover{
+.liencontactreseau:hover{
   background-color: white;
   transition: 1s;
   border-radius: 0%;
-}
-
-.mailcontact{
-  list-style: none;
-  display: inline-block;
 }
