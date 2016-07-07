@@ -126,16 +126,19 @@ footer {
   list-style: none;
   display: inline-block; }
 
-.liencontactreseau {
-  color: white;
-  transition: 1s;
-  border-radius: 100%;
-  margin-left: 40px;
-  margin-right: 40px; }
+@media (min-width: 768px) {
+  .liencontactreseau {
+    border-radius: 100%; }
 
-.liencontactreseau:hover {
-  background-color: white;
-  transition: 1s;
-  border-radius: 0%; }
+  .liencontactreseau:hover {
+    background-color: white;
+    transition: 1s;
+    border-radius: 0%; }
+
+  .liencontactreseau {
+    color: white;
+    transition: 1s;
+    margin-left: 40px;
+    margin-right: 40px; } }
 
 /*# sourceMappingURL=main.css.map */

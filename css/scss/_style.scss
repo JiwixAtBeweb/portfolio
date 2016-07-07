@@ -1,8 +1,10 @@
+///// police importé /////
 @font-face {
   font-family: 'hacked';
   src: url('./police/hacked.ttf');
 }
 
+///// fond de la page /////
 body{
 background-color: white;
 }
@@ -44,6 +46,8 @@ h2{
   text-decoration: underline;
   color: black;
 }
+
+///// barre de navigation /////
 @media (min-width:768px) {
 .containernav{
   background-color: black;
@@ -78,20 +82,19 @@ h2{
   transition: 1s;
 
 }
-
-// deux premier lien qui sont tournee //
+///// deux premier lien qui sont tournee /////
 .listenav1{
   transform: skewY(-10deg);
   transition: 1s;
 }
-// deux dernier lien qui sont tournee //
+///// deux dernier lien qui sont tournee /////
 
 .listenav2{
   transform: skewY(10deg);
   transition: 1s;
 }
 
-// au passage de la souri le menu se redresse //
+///// au passage de la souri le menu se redresse /////
 .listenav1:hover{
   transform: skewY(0deg);
   transition: 1s;
@@ -101,7 +104,9 @@ h2{
   transition: 1s;
 }
 }
-// la ou et placer mon image //
+///// fin de barre de nav /////
+
+///// la ou et placer mon image /////
 .sectionimage{
   margin-top: 30px;
   background-attachment: fixed;
@@ -110,13 +115,13 @@ h2{
   width: 100%;
   height: 500px;
 }
-// mon image fixé sur la page //
+///// mon image fixé sur la page /////
 #image1{
   background-image: url("./img/test.jpg");
   display: none;
 }
 
-// en dessous la resolution l'image ne s'affiche pas //
+///// en dessous la resolution l'image ne s'affiche pas /////
 @media (min-width:768px) {
   #image1{
     display: block;
@@ -144,6 +149,7 @@ margin-right: 20px;
 }
 }
 
+///// fond noir du footer /////
 footer{
   background-color: black;
 }
@@ -153,6 +159,7 @@ color: white;
 padding-top: 5px;
 }
 
+///// div qui englobe lien /////
 #contact{
 padding-top: 30px;
 width: 100%;
@@ -164,16 +171,22 @@ text-align: center;
   display: inline-block;
 
 }
-.liencontactreseau{
-  color: white;
-  transition: 1s;
-  border-radius: 100%;
-  margin-left: 40px;
-  margin-right: 40px;
-}
 
+
+
+@media (min-width:768px){
+.liencontactreseau{
+  border-radius: 100%;
+}
 .liencontactreseau:hover{
   background-color: white;
   transition: 1s;
   border-radius: 0%;
+}
+  .liencontactreseau{
+    color: white;
+    transition: 1s;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 }
