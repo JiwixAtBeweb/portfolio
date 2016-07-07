@@ -13,7 +13,7 @@ body {
   height: 50px;
   line-height: 50px; }
 
-@media (min-width: 0px) and (max-width: 768px) and (min-device-width: 0px) and (max-device-width: 768px) {
+@media (max-width: 768px) {
   #fondtete h1 {
     font-size: 40px;
     line-height: 25px;
@@ -106,6 +106,10 @@ article {
   font-size: 18px;
   text-align: center; }
 
+@media (max-width: 768px) {
+  article {
+    margin-left: 20px;
+    margin-right: 20px; } }
 footer {
   background-color: black; }
 
