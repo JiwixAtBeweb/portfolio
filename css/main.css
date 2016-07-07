@@ -1,3 +1,6 @@
+@font-face {
+  font-family: 'hacked';
+  src: url("./police/hacked.ttf"); }
 body {
   background-color: white; }
 
@@ -6,10 +9,15 @@ body {
   font-family: hacked, serif;
   text-align: center;
   font-size: 80px;
-  padding-top: 35px;
+  padding-top: 45px;
   height: 50px;
   line-height: 50px; }
 
+@media (min-width: 0px) and (max-width: 768px) and (min-device-width: 0px) and (max-device-width: 768px) {
+  #fondtete h1 {
+    font-size: 40px;
+    line-height: 25px;
+    margin-top: -80px; } }
 .entete {
   position: relative;
   z-index: 20;
@@ -26,52 +34,52 @@ h2 {
   text-decoration: underline;
   color: black; }
 
-.containernav {
-  background-color: black;
-  height: 60px;
-  position: fixed;
-  z-index: 10;
-  line-height: 60px;
-  border-bottom-left-radius: 100%;
-  border-bottom-right-radius: 100%; }
+@media (min-device-width: 768px) and (min-width: 768px) {
+  .containernav {
+    background-color: black;
+    height: 60px;
+    position: fixed;
+    z-index: 10;
+    line-height: 60px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%; }
 
-.groupelistenav {
-  display: flex;
-  justify-content: center; }
+  .groupelistenav {
+    display: flex;
+    justify-content: center; }
 
-.listenav {
-  color: white;
-  list-style: none;
-  font-size: 24px;
-  font-family: hacked;
-  margin-left: 20px; }
+  .listenav {
+    color: white;
+    list-style: none;
+    font-size: 24px;
+    font-family: hacked;
+    margin-left: 20px; }
 
-.listenav a {
-  text-decoration: none;
-  color: white;
-  text-shadow: black 3px 3px 6px;
-  transition: 1s; }
+  .listenav a {
+    text-decoration: none;
+    color: white;
+    text-shadow: black 3px 3px 6px;
+    transition: 1s; }
 
-.listenav a:hover {
-  color: grey;
-  transition: 1s; }
+  .listenav a:hover {
+    color: grey;
+    transition: 1s; }
 
-.listenav1 {
-  transform: skewY(-10deg);
-  transition: 1s; }
+  .listenav1 {
+    transform: skewY(-10deg);
+    transition: 1s; }
 
-.listenav2 {
-  transform: skewY(10deg);
-  transition: 1s; }
+  .listenav2 {
+    transform: skewY(10deg);
+    transition: 1s; }
 
-.listenav1:hover {
-  transform: skewY(0deg);
-  transition: 1s; }
+  .listenav1:hover {
+    transform: skewY(0deg);
+    transition: 1s; }
 
-.listenav2:hover {
-  transform: skewY(0deg);
-  transition: 1s; }
-
+  .listenav2:hover {
+    transform: skewY(0deg);
+    transition: 1s; } }
 .sectionimage {
   margin-top: 30px;
   background-attachment: fixed;
@@ -81,7 +89,7 @@ h2 {
   height: 500px; }
 
 #image1 {
-  background-image: url("./img/newyork.jpg");
+  background-image: url("./img/test.jpg");
   display: none; }
 
 @media (min-width: 768px) {

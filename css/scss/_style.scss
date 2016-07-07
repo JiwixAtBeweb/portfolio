@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'hacked';
+  src: url('./police/hacked.ttf');
+}
+
 body{
 background-color: white;
 }
@@ -7,10 +12,19 @@ background-color: white;
   font-family:hacked, serif;
   text-align: center;
   font-size: 80px;
-  padding-top: 35px;
+  padding-top: 45px;
   height: 50px;
   line-height: 50px;
 }
+@media (min-width:0px)and(max-width:768px)and(min-device-width:0px)and(max-device-width:768px){
+  #fondtete h1{
+    font-size: 40px;
+    line-height: 25px;
+    margin-top: -80px;
+
+  }
+}
+
 
 
 .entete{
@@ -30,7 +44,7 @@ h2{
   text-decoration: underline;
   color: black;
 }
-
+@media (min-device-width:768px)and(min-width:768px) {
 .containernav{
   background-color: black;
   height: 60px;
@@ -85,9 +99,8 @@ h2{
 .listenav2:hover{
   transform: skewY(-0deg);
   transition: 1s;
-
 }
-
+}
 // la ou et placer mon image //
 .sectionimage{
   margin-top: 30px;
@@ -99,7 +112,7 @@ h2{
 }
 // mon image fixé sur la page //
 #image1{
-  background-image: url("./img/newyork.jpg");
+  background-image: url("./img/test.jpg");
   display: none;
 }
 
