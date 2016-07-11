@@ -32,7 +32,8 @@ h2 {
   padding-top: 30px;
   padding-bottom: 30px;
   text-decoration: underline;
-  color: black; }
+  color: black;
+  font-family: 'Patua One', cursive; }
 
 @media (min-width: 768px) {
   .containernav {
@@ -102,7 +103,7 @@ article {
   margin-left: 120px;
   margin-right: 120px;
   color: black;
-  font-family: DAYROM;
+  font-family: 'Patua One', cursive;
   font-size: 18px;
   text-align: center; }
 
@@ -127,7 +128,7 @@ footer {
   transition: 2s; }
 
 .listelien {
-  margin-left: -45px; }
+  margin-left: -px; }
 
 @media (max-width: 768px) {
   .photofooter {
